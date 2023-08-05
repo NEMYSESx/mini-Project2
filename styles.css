@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.main{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.design1{
+    width: 450px;
+    height: 760px;
+    background-image: linear-gradient(to top right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    padding: -90px;
+    margin: -90px;
+}
+
+.design2{
+    background-color: hsl(300, 100%, 99%);
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    width: 500px;
+    height: 720px;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding: -170px;
+    margin: -170px;
+}
+
+.main-box{
+    position: relative;
+    left: 300px;
+    bottom: 550px;
+    height: 495px;
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bg-box{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: hsl(270, 20%, 96%);
+    height: 474px;
+    overflow: hidden;
+}
+
+.top-section{
+    height: 60px;
+    background-image: linear-gradient(to top right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+}
+
+.notch{
+    position: relative;
+    left: 56px;
+    bottom: 5px;
+    border-radius: 8px;
+    width: 120px;
+    height: 20px;
+    background-color: white;   
+}
+
+.person{
+    height: 45px;
+    font-size: 10px;
+}
+
+.fa-chevron-left{
+    position: relative;
+    left: 12px;
+    bottom: 45px; 
+    color: white; 
+    font-size:10px
+}
+
+.fa-ellipsis-v{
+    position: relative;
+    left: 185px;
+    bottom: 45px; 
+    color: white; 
+    font-size:10px
+}
+
+.person img{
+    border-radius: 100%;
+    border: 1.5px solid white;
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 24px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.t1{
+    position: relative;
+    left: 55px;
+    bottom: 32px;
+    font-size: 10px;
+    color: white;
+    font-weight: 
+    display: block;
+    width: 70px;
+    font-weight: 500;
+}
+.t2{
+    position: relative;
+    left: 55px;
+    bottom: 30px;
+    font-size: 7px;
+    color: hsl(270, 7%, 64%);
+    display: block;
+    width: 70px;
+}
+
+.bottom-section{
+    font-size: 10px;
+    height: 420px;
+}
+
+.chat1{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 9px;
+    font-size: 8px;
+    padding: 10px;
+    padding-bottom: 14px;
+    height: 12px;
+    width: 110px;
+    color: hsl(276, 55%, 52%);
+    background-color:hsl(300, 100%, 99%);;
+    border-bottom-left-radius: 3px;
+}
+
+.chat2{
+    position: relative;
+    top: 7px;
+    margin-left: 9px;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 12px;
+    width: 110px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(300, 100%, 99%);;
+    border-bottom-left-radius: 3px;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pic1{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    margin-left: -7px;
+    margin-right: -7px;
+    padding-right: 0px
+}
+
+.pic2{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    margin-right: -5px;    
+}
+
+.pic3{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    margin-right: -12px;    
+}
+
+.pic1 img{
+    height: 38px;
+    width: 38px;
+    border-radius: 10px;
+}
+
+.pic2 img{
+    height: 38px;
+    width: 38px;
+    border-radius: 10px;
+}
+.pic3 img{
+    height: 38px;
+    width: 38px;
+    border-radius: 10px;
+}
+
+.chat3{
+    position: relative;
+    top: 7px;
+    left: 90px;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 12px;
+    width: 110px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    border-bottom-right-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.chat4{
+    position: relative;
+    top: 14px;
+    left: 135px;
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
+    height: 4px;
+    width: 65px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    border-bottom-right-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.chat5{
+    position: relative;
+    top: 25px;
+    font-size: 8px;
+    margin-left: 9px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 17px;
+    height: 18px;
+    width: 120px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(300, 100%, 99%);;
+    border-bottom-left-radius: 3px;
+}
+
+.chat6{
+    position: relative;
+    top: 32px;
+    padding-left: 20px;
+    margin-left: 9px;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-bottom-left-radius: 3px;
+}
+
+.chat6 input{
+    position: relative;
+    top: 9px;
+    right: 12px;
+    font-size: 10px;
+    color: hsl(293, 100%, 63%);
+    font-weight: 400;
+    accent-color: hsl(293, 100%, 63%);
+}
+
+.chat6 label{
+    position: relative;
+    top: 5px;
+    right: 10px;
+    font-size: 8px;
+    color: white;
+    font-weight: 400;
+}
+
+.chat6 p{
+    position: relative;
+    top: -7px;
+    left: 100px;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+
+.chat7{
+    position: relative;
+    top: 39px;
+    padding-left: 20px;
+    margin-left: 9px;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-bottom-left-radius: 3px;
+}
+
+.chat7 input{
+    position: relative;
+    top: 9px;
+    right: 12px;
+    font-size: 10px;
+    background-color:hsl(293, 100%, 63%)
+    font-weight: 400;
+    accent-color: hsl(293, 100%, 63%);
+}
+
+.chat7 label{
+    position: relative;
+    top: 5px;
+    right: 10px;
+    font-size: 8px;
+    color: white;
+    font-weight: 400;
+}
+
+.chat7 p{
+    position: relative;
+    top: -7px;
+    left: 100px;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.reply{
+    position: relative;
+    top: 45px;
+    margin: 10px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.reply p{
+    position: relative;
+    left: 10px;
+    top: 12px;
+    font-size: 9px;
+    color: hsl(270, 7%, 64%);
+    font-weight: 400;
+}
+
+.send{
+    position: relative;
+    bottom: 17px;
+    left: 167px;
+    margin: 10px;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    background-color: hsl(271, 36%, 24%);
+}
+
+.fa-chevron-right{
+    position: relative;
+    bottom: -8px;
+    left: 9px;
+    color: white;
+}
+
+.text{
+    position: relative;
+    left: 600px;
+    bottom: 1000px;
+    height: 500px;
+    width: 660px;
+    overflow: auto;
+}
+
+.text1{
+    position: relative;
+    top: 110px;
+    font-size: 35px;
+    padding-left: 230px;
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+}
+
+.text2{
+    position: relative;
+    top: 130px;
+    width: 430px;
+    padding-left: 230px;
+    color: hsl(270, 7%, 64%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
